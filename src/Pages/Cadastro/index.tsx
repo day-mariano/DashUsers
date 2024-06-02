@@ -6,7 +6,7 @@ const Cadastro = () => {
     <main className="bg-slate-200 w-screen h-screen flex flex-col text-zinc-800 items-center justify-between">
        <Header/>
       <form action="https://teste.reobote.tec.br/api/register" method="post" target="_blank" className="flex flex-col items-center p-3 rounded-md bg-teal-800 text-white shadow-sm">
-        <h2 className="font-bold mb-2">Registre-se</h2>
+        <h2 className="font-bold mb-2">Cadastro</h2>
         <label htmlFor="name" className="m-2">Nome</label>
         <input type="text" placeholder="Insira seu nome" name="name" className="w-80 p-1 rounded-sm text-zinc-600" />
         <label htmlFor="email" className="m-2">E-mail</label>
